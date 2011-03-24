@@ -1,3 +1,15 @@
-This script has been renamed to PastBin.vim.
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3505
 
-http://github.com/vim-scripts/PastBin.vim
+This is vimscript for pastebin (http://pastebin.com/)
+
+Usage:
+
+  :PasteBin
+    post whole text to pastebin.
+
+  :'<,'>PasteBin
+    post selected text to pastebin.
+
+Require:
+  curl command (http://curl.haxx.se/)
+
